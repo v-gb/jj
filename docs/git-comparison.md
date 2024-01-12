@@ -350,5 +350,10 @@ parent.
       </td>
       <td><code>git revert &lt;revision&gt;</code></td>
     </tr>
+    <tr>
+      <td>Figuring out the origin of the lines of a file</td>
+      <td>Not yet supported. As a hack that may break in the future, it is technically possible to run <code>GIT_DIR=$(jj workspace root)/.jj/repo/store/git git blame $(jj log --no-graph -r @ -T commit_id) &lt;file&gt;</code></td>
+      <td><code>git blame &lt;file&gt;</code></td>
+    </tr>
   </tbody>
 </table>
