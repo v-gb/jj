@@ -58,6 +58,10 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   [streampager](https://github.com/markbt/streampager/). It can handle large
   inputs better.
 
+* The terminal UI of `jj diffedit` now starts with the whole diff checked, meaning
+  you need to uncheck what you want to discard, instead of checking what you want to
+  preserve.
+
 ### Deprecations
 
 ### New features
